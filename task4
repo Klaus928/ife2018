@@ -4,152 +4,180 @@
 		<meta charset="utf-8">
 		<title></title>
 	</head>
-	<body><!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<title>resume</title>
-		<style>
-			body{
-
-				background: #0f2027; /* fallback for old browsers */
-				background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
-				background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-				color: #fff;
-				margin: 0;
-			}
-			div {
-				box-sizing: border-box;
-			}
- 
-			@media (max-width: 992px) {
-				.resumn {
-					width:100%;
-					margin: 5px auto;
-				}
-			}
-			@media (min-width: 992px) {
-			.resumn {
-				width:50%;
-				margin:10px auto;
-			}
-			
-		}
-			ul.info {
-				margin: 0;
-				padding: 0;
-				list-style: none;
-				margin-left: 20px;
-
-				}
-			ul.info li {
-				line-height: 25px;
-				list-style-position: inside;
-			}
-			ul.info li:last-child {
-				list-style-image:url(img/email.svg);
-			}
-			ul.info li:nth-child(2) {
-				list-style-image:url(img/wan_sex_w.svg);
-			}
-			ul.info li:nth-child(3) {
-				list-style-image:url(img/home.svg);
-			}
-			ul.info li:nth-child(4) {
-				list-style-image:url(img/ascend.svg);
-			}
-			ul.info li:first-child {
-				list-style-image:url(img/user.svg);
-			}
-			div>span {
-				margin-left: 10px;
-				font-weight: bold;}
-			p {
-				margin-left: 10px;}
-			@font-face {
-				font-family: "shufa";
-				src: url("font/默陌老屋手迹.ttf");
-			}
-			h3 {
-				font-family: "shufa";
-				text-shadow:5px 5px 6px #408ba8;
-				padding-bottom: 5px;
-				border-bottom: 1px solid #278282;}
-			span.info-cap {
-				font-weight: bold;}
-			.email{
-				text-decoration:underline;
-				font-style: italic;
-			}
-			/*顺序:link — :visited — :hover — :active*/
-			a:link {
-				color:#71d0d8;
-			}
-			a:visited {
-				color: #3388ff;
-			}
-			a:hover {
-				color:#fff;
-				background:#278282;
-			}
-			/*list-style-type*/
-			div.proj-exper ul li{
-				 list-style-type: circle;
-			}
-			div.self-assess ul li {
-				list-style-type: square;
-			}
-		</style>
-	</head>
 	<body>
-		<div class="resumn">
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width,initial-scale=1.0">
+				<title>resume</title>
+				<style>
+					body {
 
-		<h1>Resume</h1>
-		<div>
-			<h3>Personal information</h3>
-			<ul class="info">
-				<li><span class="info-cap">Name : </span>Klaus</li>
-				<li><span class="info-cap">Sex : </span>Female</li>
-				<li><span class="info-cap">Native Place: </span>Yunnan</li>
-				<li><span class="info-cap">Age : </span>23</li>
-				<li><a href="mailto:5556667@qq.com"><span class="info-cap">Email : </span><span class="email">5556667@qq.com</span></a></li>
-			</ul>
-		</div>
-		<div>
-			<h3>Education Background</h3>
-			<span>2011~2015</span><span> Baidu ife school </span><span>Computer Science and technology</span>
-			<p>Major Course: computer science and technology and computer science and technology</p>
-		</div>
-		<div class="proj-exper">
-			<h3>Project experience</h3>
-				<span>2014.06~2015.02</span><span class="train-comp">baidu ife</span><span>trainee</span>
-					<ul>
-						<li>Responsible for daily chores</li>
-						<li>Responsible for daily chores</li>
-						<li>Responsible for daily chores</li>
-						<li>Responsible for daily chores</li>
-					</ul>
-					<span>2014.06~2015.02</span><span class="train-comp">baidu ife</span><span>trainee</span>
-					<ul>
-						<li>Responsible for daily chores</li>
-						<li>Responsible for daily chores</li>
-						<li>Responsible for daily chores</li>
-						<li>Responsible for daily chores</li>
-					</ul>
-		</div>
-					
- <div class="self-assess">
-	 <h3>Self assessment</h3>
-	 <ul>
-		 <li>Optimistic and cheerful</li>
-		 <li>Hard work</li>
-		 <li>Beautiful</li>
-		 <li>Amazing</li>
-	 </ul>
- </div>
-		</div>
-</body>
-</html>
+						background: #0f2027;
+						/* fallback for old browsers */
+						background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+						/* Chrome 10-25, Safari 5.1-6 */
+						background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+						/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+						color: #fff;
+						margin: 0;
+					}
+
+					div {
+						box-sizing: border-box;
+					}
+
+					@media (max-width: 992px) {
+						.resumn {
+							width: 100%;
+							margin: 5px auto;
+						}
+					}
+
+					@media (min-width: 992px) {
+						.resumn {
+							width: 50%;
+							margin: 10px auto;
+						}
+
+					}
+
+					ul.info {
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						margin-left: 20px;
+
+					}
+
+					ul.info li {
+						line-height: 25px;
+						list-style-position: inside;
+					}
+
+					ul.info li:last-child {
+						list-style-image: url(img/email.svg);
+					}
+
+					ul.info li:nth-child(2) {
+						list-style-image: url(img/wan_sex_w.svg);
+					}
+
+					ul.info li:nth-child(3) {
+						list-style-image: url(img/home.svg);
+					}
+
+					ul.info li:nth-child(4) {
+						list-style-image: url(img/ascend.svg);
+					}
+
+					ul.info li:first-child {
+						list-style-image: url(img/user.svg);
+					}
+
+					div>span {
+						margin-left: 10px;
+						font-weight: bold;
+					}
+
+					p {
+						margin-left: 10px;
+					}
+
+					@font-face {
+						font-family: "shufa";
+						src: url("font/默陌老屋手迹.ttf");
+					}
+
+					h3 {
+						font-family: "shufa";
+						text-shadow: 5px 5px 6px #408ba8;
+						padding-bottom: 5px;
+						border-bottom: 1px solid #278282;
+					}
+
+					span.info-cap {
+						font-weight: bold;
+					}
+
+					.email {
+						text-decoration: underline;
+						font-style: italic;
+					}
+
+					/*顺序:link — :visited — :hover — :active*/
+					a:link {
+						color: #71d0d8;
+					}
+
+					a:visited {
+						color: #3388ff;
+					}
+
+					a:hover {
+						color: #fff;
+						background: #278282;
+					}
+
+					/*list-style-type*/
+					div.proj-exper ul li {
+						list-style-type: circle;
+					}
+
+					div.self-assess ul li {
+						list-style-type: square;
+					}
+				</style>
+			</head>
+			<body>
+				<div class="resumn">
+
+					<h1>Resume</h1>
+					<div>
+						<h3>Personal information</h3>
+						<ul class="info">
+							<li><span class="info-cap">Name : </span>Klaus</li>
+							<li><span class="info-cap">Sex : </span>Female</li>
+							<li><span class="info-cap">Native Place: </span>Yunnan</li>
+							<li><span class="info-cap">Age : </span>23</li>
+							<li><a href="mailto:5556667@qq.com"><span class="info-cap">Email : </span><span class="email">5556667@qq.com</span></a></li>
+						</ul>
+					</div>
+					<div>
+						<h3>Education Background</h3>
+						<span>2011~2015</span><span> Baidu ife school </span><span>Computer Science and technology</span>
+						<p>Major Course: computer science and technology and computer science and technology</p>
+					</div>
+					<div class="proj-exper">
+						<h3>Project experience</h3>
+						<span>2014.06~2015.02</span><span class="train-comp">baidu ife</span><span>trainee</span>
+						<ul>
+							<li>Responsible for daily chores</li>
+							<li>Responsible for daily chores</li>
+							<li>Responsible for daily chores</li>
+							<li>Responsible for daily chores</li>
+						</ul>
+						<span>2014.06~2015.02</span><span class="train-comp">baidu ife</span><span>trainee</span>
+						<ul>
+							<li>Responsible for daily chores</li>
+							<li>Responsible for daily chores</li>
+							<li>Responsible for daily chores</li>
+							<li>Responsible for daily chores</li>
+						</ul>
+					</div>
+
+					<div class="self-assess">
+						<h3>Self assessment</h3>
+						<ul>
+							<li>Optimistic and cheerful</li>
+							<li>Hard work</li>
+							<li>Beautiful</li>
+							<li>Amazing</li>
+						</ul>
+					</div>
+				</div>
+			</body>
+		</html>
 	</body>
 </html>
