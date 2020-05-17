@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>resumn</title>
+		<link rel="stylesheet" href="./css/task4_1/style_3.css">
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="caption">
+					<h1>简历</h1>
+			</div>
+			<div class=" main">
+				<div class="item self-info">
+					<h2>基本信息</h2>
+					<ul>
+						<li><span  class="info-caption">姓名</span><span>张三</span></li>
+						<li><span  class="info-caption">性别</span><span>男</span></li>
+						<li><span  class="info-caption">应聘职位</span><span>Web前端工程师</span></li>
+					</ul>
+				</div>
+				<div class="item contact">
+					<h2>联系方式</h2>
+					<ul>
+						<li><span class="info-caption">手机</span><span>16283974738</span></li>
+						<li><span class="info-caption">Email</span><span>638284689@qq.com</span></li>
+						<li><span class="info-caption">个人主页</span><span>Github</span></li>
+					</ul>
+				</div>
+				<div class="item abli-decri">
+					<h2>能力描述</h2>
+					<div>
+						<dl>
+							<dt>技术能力</dt>
+							<dd>熟练掌握HTML, CSS, JavaScript</dd>
+						</dl>
+						<dl>
+							<dt>综合能力</dt>
+							<dd>良好的沟通，主动积极，努力勤奋</dd>
+						</dl>
+					</div>
+					
+				</div>
+				<div class="item education">
+					<h2>教育经历</h2>
+					<div>
+						<dl>
+							<dt>本科</dt>
+							<dd>百度前端技术学院小薇学院</dd>
+						</dl>
+						<dl>
+							<dt>研究生</dt>
+							<dd>百度前端技术学院大斌学院</dd>
+						</dl>
+					</div>
+					
+				</div>
+				<div class="item proj-expe">
+					<h2>项目经历</h2>
+					<div>
+						<dl>
+							<dt>小度小度</dt>
+							<dd>作为前端工程师角色参与了ABC组件的开发</dd>
+						</dl>
+						<dl>
+							<dt>SAN Doc</dt>
+							<dd>作为文档工程师参与了SAN Doc编写</dd>
+						</dl>
+					</div>
+					
+				</div>
+			</div>
+		
+		</div>
+		
+	</body>
+</html>
