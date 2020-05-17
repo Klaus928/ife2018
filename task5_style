@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	padding: 10px;/*在最外层设置间距 距离边缘10px 为了对齐：内层盒子不设置左右间距 只设置上下间距 */
+}
+h1 {
+	margin-bottom: 30px;
+}
+h2 {
+	margin: 20px 0;
+}
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+.info-caption {
+	font-weight: 700;
+	margin-right: 10px;
+}
+dt {
+	font-weight: 700;/* 遵循规范,字重用数字表示 */
+}
