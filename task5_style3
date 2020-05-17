@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	/* padding: 10px; */
+	/*在最外层设置间距 距离边缘10px 为了对齐：内层盒子不设置左右间距 只设置上下间距 */
+	/* overflow: hidden; */
+}
+
+
+h2 {
+	/* margin: 20px 0;/*设置上下边距 左右边距为0*/ */
+	
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.info-caption {
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+dt {
+	font-weight: 700;
+	/* 遵循规范,字重用数字表示 */
+}
+
+.caption {
+	width: 100%;
+	height: 6rem;
+	line-height: 6rem;
+	background: #16222A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #568eaa, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #568eaa, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+	padding-left: 3rem;
+}
+
+.main {
+	/* margin-left: 10px; */
+}
+h2, ul, dt, dd {
+	display: inline-block;
+}
+.abli-decri div, .education div, .proj-expe div{
+	display: inline-block;/* 将三个dl设置h2同一行 */
+}
+.item {
+	height: 8rem;
+	border-bottom: 1px solid #263d4f;
+
+}
+.item h2 {
+	line-height: 8rem;
+	width: 30%;
+	height: 8rem;
+	background: #68aece;
+	border-bottom: 1px solid #41dada;
+	text-align: center;
+}
